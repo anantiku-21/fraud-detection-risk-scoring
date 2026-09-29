@@ -1,0 +1,8 @@
+data/*.csv
+outputs/fraud.db
+outputs/model_results/*.joblib
+outputs/model_results/test_features.csv
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+venv/
