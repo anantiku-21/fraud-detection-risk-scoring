@@ -1,0 +1,29 @@
+{
+  "rows": 590540,
+  "fraud_rate": 0.03499000914417313,
+  "customers_proxy": 217779,
+  "n_features": 23,
+  "train_rows": 413378,
+  "val_rows": 88581,
+  "test_rows": 88581,
+  "selected_model": "Gradient Boosting (balanced)",
+  "val_pr_auc": 0.4265682914189756,
+  "baseline_lr_val_pr_auc": 0.1836063451805538,
+  "test_pr_auc": 0.44508663074534427,
+  "test_roc_auc": 0.8644826805371397,
+  "test_precision": 0.15684695894020348,
+  "test_recall": 0.6951021732079143,
+  "test_f1": 0.2559417174250567,
+  "test_fraud_rate": 0.03480430340592226,
+  "decision_threshold": 0.5,
+  "tier_thresholds_score": {
+    "medium": 35.09,
+    "high": 50.0,
+    "critical": 94.21
+  },
+  "test_fraud_value_caught_pct": 0.6448836306358249,
+  "test_cost_with_model": 303395.673,
+  "test_cost_no_model": 469608.52099999995,
+  "high_critical_share_of_txns": 0.15424300922319684,
+  "high_critical_share_of_fraud": 0.6951021732079143
+}
